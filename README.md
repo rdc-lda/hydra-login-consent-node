@@ -27,6 +27,32 @@ library.
 
 To set this example up with ORY Hydra, please refer to the [official documentation](https://www.ory.sh/docs).
 
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+In order to develop / test, you need the following tools installed:
+
+* [Docker](https://docs.docker.com/docker-for-mac/install/)
+* [GNU Make](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/) 3.8 or higher
+
+## Built With
+
+* Docker
+
+### Build Docker
+
+~~~bash
+# Build the Docker locally
+#  -- see output how to run this Docker on your machine
+$ make image
+
+# Push Docker to the Docker Registry
+$ make push
+~~~
+
 ## Running locally
 
 To run this example locally, you will first want to start ORY Hydra. Please note, that the set up shown here might not
